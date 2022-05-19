@@ -93,7 +93,6 @@ mod test {
     fn equal() {
         let g = b_generated_order();
         let b = generated_order();
-
         let g = g.encode_buffer().unwrap();
         let b = b.encode_buffer().unwrap();
 
